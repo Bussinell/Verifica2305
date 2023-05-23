@@ -63,4 +63,5 @@ nella classe ``` Contatto ``` si trova una descrizione di un singolo contatto co
 * nome;
 * cognome;
 * numero di telefono.
-nella classe ``` Rubrica ``` si trova una struttura dati che salva i contatti:
+
+nella classe ``` Rubrica ``` si trova una struttura dati che salva i contatti
