@@ -8,7 +8,7 @@ nome del file: ``` es_prova_compagno ```
 # Creare una cartella nominata ``` Verifica2305 ```, e scrivere questo comando su git-bash:
 
 ```
-cd $HOME/path/to/<nomeDellaCartella>
+cd $HOME/path/to/<Verifica2305>
 ```
 dove ``` path/to/ ``` rappresenta il percorso del file.
 Creare un file ``` README.md ``` in Blocco note, che sarà il readme file del repository Git, e scrivere al suo interno la traccia dell'esercitazione indicata su Classroom. Salvare il file.
@@ -26,16 +26,31 @@ Creare un file ``` README.md ``` in Blocco note, che sarà il readme file del re
 # Configurazione del repository locale e sincronizzazione
 Da ``` git-bash ``` eseguire i seguenti comandi:
 ```
-git init  # Inizializza il repository locale
-git add README.md  # Inserimento del file README.md nell'area di staging
-git commit -m "first commit"  # Creazione del primo commit, che serve a sincronizzare il repository locale con lo stage
-git branch -M main  # Creazione del branch main, da usare come default
-git remote add origin https://github.com/<username>/Esercitazione16maggio  # Connessione del repository remoto al repository locale
-git push -u origin main  # Sincronizzazione del repository remoto con quello locale
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/<username>/Verifica2305
+git push -u origin main
 ```
 Nel caso in cui appaia questa finestra
 
 ![](manager.png)
 
 selezionare ``` manager ```.
+
+# Esercizio java:
+utilizza la struttura dati corretta per il seguente problema:
+Sia data una classe Contatto le cui istanze rappresentano contatti telefonici. Ogni contatto ha un nome, un cognome e un numero telefonico (tutti di tipo String), un costruttore che riceve come parametro il nome, il cognome e il numero di telefono associati al contatto, metodi per leggere tali valori e il metodo toString() che restituisce una rappresentazione testuale del contatto. Scrivere una classe Rubrica che rappresenta una collezione di contatti. La classe memorizza i contatti per mezzo di una lista ed è dotata dei seguenti metodi: 
+ void aggiungiContatto(String nome, String cognome, String telefono) che aggiunge un contatto alla rubrica;  
+void rimuoviContatto(String nome, String cognome) che rimuove dalla rubrica il contatto associato al nome e cognome dati;  
+String cerca(String nome, String cognome) che dato un nome e cognome restituisce il numero di telefono associato a quel nome e cognome oppure null se il nome e cognome non sono presenti in rubrica;  String toString() che restituisce una descrizione testuale dell’intera rubrica.
+
+# Inserire i file dell'esercizio:
+su ``` git bash ``` eseguire i seguenti comandi:
+* ``` git add * ``` per inserire tutti i file
+* ``` git commit -m "first commit" ```
+* ``` git remote add origin https://github.com/<username>/Verifica2305.git ```
+* ``` git branch -M main ```
+* ``` git push -u origin main ```
 
