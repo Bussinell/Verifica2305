@@ -58,6 +58,7 @@ prendere i file dell'esecizio dalla cartella ``` es_prova_compagno ``` e inserir
 # descrizione del codice:
 
 ![](UML.png)
+
 nella classe ``` Contatto ``` si trova una descrizione di un singolo contatto come ad esempio:
 * nome;
 * cognome;
