@@ -47,7 +47,7 @@ void rimuoviContatto(String nome, String cognome) che rimuove dalla rubrica il c
 String cerca(String nome, String cognome) che dato un nome e cognome restituisce il numero di telefono associato a quel nome e cognome oppure null se il nome e cognome non sono presenti in rubrica;  String toString() che restituisce una descrizione testuale dell’intera rubrica.
 
 # Inserire i file dell'esercizio:
-su ``` git bash ``` eseguire i seguenti comandi:
+prendere i file dell'esecizio dalla cartella ``` es_prova_compagno ```, su ``` git bash ``` eseguire i seguenti comandi:
 * ``` git add * ``` per inserire tutti i file
 * ``` git commit -m "first commit" ```
 * ``` git remote add origin https://github.com/<username>/Verifica2305.git ```
