@@ -55,3 +55,11 @@ prendere i file dell'esecizio dalla cartella ``` es_prova_compagno ``` e inserir
 * ``` git branch -M main ```
 * ``` git push -u origin main ```
 
+# descrizione del codice:
+
+![](UML.png)
+nella classe ``` Contatto ``` si trova una descrizione di un singolo contatto come ad esempio:
+* nome;
+* cognome;
+* numero di telefono.
+nella classe ``` Rubrica ``` si trova una struttura dati che salva i contatti:
