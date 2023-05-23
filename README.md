@@ -12,7 +12,7 @@ nome del file: ``` es_prova_compagno ```
 cd $HOME/path/to/<Verifica2305>
 ```
 dove ``` path/to/ ``` rappresenta il percorso del file.
-Creare un file ``` README.md ``` in Blocco note, che sarà il readme file del repository Git, e scrivere al suo interno la traccia dell'esercitazione indicata su Classroom. Salvare il file.
+Creare un file ``` README.md ``` in Blocco note, che sarà il readme file del repository Git.
 
 # Creare una repository su GitHub
 * aprire il sito github.com
@@ -31,7 +31,7 @@ git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/<username>/Verifica2305
+git remote add origin https://github.com/bussinell/Verifica2305
 git push -u origin main
 ```
 Nel caso in cui appaia questa finestra
