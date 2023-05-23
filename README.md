@@ -5,7 +5,8 @@ nome del file: ``` es_prova_compagno ```
 
 ![](esercizio.png)
 
-# Creare una cartella nominata ``` Verifica2305 ```, e scrivere questo comando su git-bash:
+# Creare una cartella 
+ creare una cartella nominata ``` Verifica2305 ```, e scrivere questo comando su git-bash:
 
 ```
 cd $HOME/path/to/<Verifica2305>
