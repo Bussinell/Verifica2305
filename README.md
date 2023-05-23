@@ -64,4 +64,21 @@ nella classe ``` Contatto ``` si trova una descrizione di un singolo contatto co
 * cognome;
 * numero di telefono.
 
+metodi:
+
+* setter e getter degli attributi
+* cotruttore vuoto e copia;
+* equals;
+* toString;
+* clone;
+
 nella classe ``` Rubrica ``` si trova una struttura dati che salva i contatti
+* rubrica.
+
+metodi:
+
+* costruttore che crea la linkedList
+* aggiungiContatto;
+* rimuoviContatto;
+
+dentro questa classe poi troviamo il main da dove è possibile eseguire l'esercizio.
