@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Rubrica
+comment1.params=
+comment1.target=Rubrica()
+comment2.params=contatto
+comment2.target=void\ aggiungiContatto(Contatto)
+comment3.params=contatto
+comment3.target=void\ rimuoviContatto(Contatto)
+comment4.params=nome\ cognome
+comment4.target=java.lang.String\ cercaContatto(java.lang.String,\ java.lang.String)
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6
